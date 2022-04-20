@@ -1,0 +1,63 @@
+.filme-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  font-size: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/stcapa.jpg");
+  height: 800px;
+  background-size: cover;
+}
+
+.caixa-do-titulo {
+  margin-left: 50px;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  max-width: 50ch;
+}
+
+.botoes ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.botoes a {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 120px;
+  padding: 15px 30px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.botoes a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#botao-branco {
+  color: black;
+  background-color: #ffffff;
+}
+#botao-branco:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.botoes i {
+  margin-right: 10px;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 60px;
+}

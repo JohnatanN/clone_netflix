@@ -1,0 +1,17 @@
+:root {
+  --vermelho: #ea0914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preta);
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-bottom: 200px;
+}
